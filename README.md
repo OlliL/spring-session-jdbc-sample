@@ -16,4 +16,4 @@ Date: Fri, 24 Apr 2026 16:56:10 GMT
 
 ```
 
---> SESSIONID is returned
+--> SESSION is returned
