@@ -4,7 +4,8 @@
 - open terminal
 - execute curl
 
-```:~$ curl -i -X POST http://localhost:8080/test
+```
+:~$ curl -i -X POST http://localhost:8080/test
 HTTP/1.1 200 
 Set-Cookie: JSESSIONID=478E59BD6641003C456144A910523BC5; Path=/; HttpOnly
 Content-Type: text/plain;charset=UTF-8
