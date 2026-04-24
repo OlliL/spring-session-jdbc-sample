@@ -1,4 +1,4 @@
-# Spring Boot 4 JDBC Sessions
+# Spring Boot 3 JDBC Sessions
 
 - start application
 - open terminal
@@ -6,11 +6,13 @@
 
 ```:~$ curl -i -X POST http://localhost:8080/test
 HTTP/1.1 200 
+Set-Cookie: SESSION=ZmNlNzk0ODQtMDc1ZS00ZTA2LTkzYmQtNjlhOTBiNjlhZTZk; Path=/; HttpOnly; SameSite=Lax
 Content-Type: text/plain;charset=UTF-8
 Content-Length: 2
-Date: Fri, 24 Apr 2026 16:49:02 GMT
+Date: Fri, 24 Apr 2026 16:56:10 GMT
 
 1
+
 ```
 
---> JSESSIONID is **missing**
+--> SESSIONID is returned
