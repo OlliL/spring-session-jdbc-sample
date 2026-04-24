@@ -4,7 +4,8 @@
 - open terminal
 - execute curl
 
-```:~$ curl -i -X POST http://localhost:8080/test
+```
+:~$ curl -i -X POST http://localhost:8080/test
 HTTP/1.1 200 
 Content-Type: text/plain;charset=UTF-8
 Content-Length: 2
